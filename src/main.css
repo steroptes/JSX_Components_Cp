@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+body
+{
+    font-family: 'Lato', 'sans-serif';
+    }
+.container{
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10vh;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.profile-block{
+    width:100% ;
+}
+.profile-items{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+    align-items: stretch;
+}
+
+.border-2{
+    border-width:0.5em !important;
+    background-color: white;
+}
+.border-bottom{
+    border-width:0.1em !important;
+}
+.profile-details > h3{
+    font-weight: bold;
+}
+.profile-details > h3 > p{
+    font-weight: 500;
+    margin:0.5em 0;
+}
